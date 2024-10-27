@@ -1,6 +1,6 @@
 body {
     background-color: #fdd663;
-    color: #fff;
+    color: #333;
     font-family: 'Wellfleet', serif;
     text-align: center;
     margin: 0;
@@ -25,16 +25,15 @@ header {
 header h1 {
     font-size: 48px;
     margin: 0;
-    color: #333;
+    color: #523620;
     font-weight: bold;
 }
 
 header p {
     font-size: 18px;
     margin: 0;
-    color: #333;
+    color: #523620;
 }
-
 
 #teacher2 {
     position: absolute;
@@ -43,7 +42,6 @@ header p {
     width: 300px;
     height: auto;
 }
-
 
 #blackboard {
     background-color: #425a5a;
@@ -58,7 +56,6 @@ header p {
     align-items: center;
     margin-top: 20px;
 }
-
 
 #content {
     text-align: center;
@@ -110,5 +107,3 @@ button {
     background-color: #d9534f;
     color: #fff;
 }
-
-
