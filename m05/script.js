@@ -2,7 +2,7 @@ function generateTable() {
     const numberInput = document.getElementById('numberInput').value;
     const output = document.getElementById('output');
 
-   
+    // Validate input
     if (numberInput !== '' && !isNaN(numberInput) && numberInput >= 0 && numberInput <= 10) {
         const number = Number(numberInput);
         let msg = '<h2>Multiplication Table</h2>';
@@ -18,10 +18,9 @@ function generateTable() {
 }
 
 function resetTable() {
-    document.getElementById('numberInput').value = ''; 
-    document.getElementById('output').innerHTML = ''; 
+    document.getElementById('numberInput').value = '';
+    document.getElementById('output').innerHTML = '';
 }
 
 document.getElementById('generateBtn').addEventListener('click', generateTable);
 document.getElementById('resetBtn').addEventListener('click', resetTable);
-
